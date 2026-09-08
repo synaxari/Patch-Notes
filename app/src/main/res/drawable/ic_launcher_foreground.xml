@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Center Safe Zone: 21 to 87 (66dp) -->
+    <!-- Outer Shield Hex Ring -->
+    <path
+        android:pathData="M54,24 L78,36 L78,66 L54,84 L30,66 L30,36 Z"
+        android:strokeWidth="2.5"
+        android:strokeColor="#00F0FF" />
+
+    <!-- Inner Tactical Fill -->
+    <path
+        android:pathData="M54,28 L74,38 L74,64 L54,79 L34,64 L34,38 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="54"
+                android:startY="28"
+                android:endX="54"
+                android:endY="79"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#2600F0FF" />
+                <item android:offset="1.0" android:color="#0D00F0FF" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Radar Target Reticle Lines -->
+    <path
+        android:pathData="M54,34 L54,46 M54,62 L54,74 M36,54 L46,54 M62,54 L72,54"
+        android:strokeWidth="2"
+        android:strokeColor="#38BDF8"
+        android:strokeLineCap="round" />
+
+    <!-- Center Meta Analysis Core Node -->
+    <path
+        android:pathData="M54,48 L60,54 L54,60 L48,54 Z"
+        android:fillColor="#F59E0B" />
+
+    <!-- Upward Meta Shift Arrow Indicator -->
+    <path
+        android:pathData="M44,43 L54,33 L64,43"
+        android:strokeWidth="2.5"
+        android:strokeColor="#10B981"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+</vector>

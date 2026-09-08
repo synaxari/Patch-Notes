@@ -1,0 +1,7 @@
+{
+  "name": "PatchMeta",
+  "description": "Expert competitive gaming meta shift analyst for shooters and MOBAs, analyzing character tuning, arsenal TTK/economy, and objective pacing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
